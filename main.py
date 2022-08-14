@@ -6,7 +6,7 @@ from mangum import Mangum
 
 from pydantic import BaseModel
 
-
+ 
 class Employee(BaseModel):
     Emp_ID: int
     F_Name: str
