@@ -13,7 +13,8 @@ class Employee(BaseModel):
     L_Name: str
     Salary: int
 
-
+  
+  
 app = FastAPI()
 handler = Mangum(app)
 
